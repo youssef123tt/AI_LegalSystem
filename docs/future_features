@@ -1,0 +1,29 @@
+RAG REALTED:
+Strict automated citation validation (enforce every claim maps to a chunk)
+Hallucination guardrails/scoring gates
+Conversation memory/session management
+Auth/tenant controls + audit/export workflows for legal operations
+
+Authentication/roles (“lawyer workspace”, client matter separation)
+A true RAG “answer + citations” chat/report generator
+Better jurisdiction-specific citation parsing and linking to official sources
+Strong audit/export: “sources used”, PDF page mapping, download/print bundle
+
+
+done:
+New features and practical use cases
+Jurisdiction-specific citation parsing + official links
+Example: 20 U.S.C. 1145g is extracted and linked to an official reference URL.
+Use case: lawyer clicks directly from answer source to statute page.
+
+EU citation support
+Example: Regulation (EU) 2016/679 gets normalized and linked (EUR-Lex).
+Use case: cross-border compliance research (US + EU corpus).
+
+PDF page mapping in sources
+Now each source chunk can include page_start / page_end.
+Use case: in legal memo, lawyer can verify quote on exact PDF page quickly.
+
+Strong audit/export (/v1/audit/sources)
+Returns sources_used with snippet + metadata + citations + official URLs + page mapping.
+Use case: attach “evidence pack” to legal report with traceable provenance.

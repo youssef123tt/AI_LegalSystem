@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: theme(fontFamily.body);
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(242, 109, 10, 0.14), transparent 55%),
+    radial-gradient(900px 600px at 80% 30%, rgba(0, 0, 0, 0.08), transparent 60%),
+    linear-gradient(180deg, #fbf7ef, #f3efe6);
+  color: #151515;
+}
+
+code,
+pre {
+  font-family: theme(fontFamily.mono);
+}
+

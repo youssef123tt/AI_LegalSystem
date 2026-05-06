@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Env
+.env
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data volumes / local storage
+data/
+chroma_data/
+*.log
+
+# Executables and large binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Databases
+*.sqlite3
+*.db
+
+# Coverage and testing
+.coverage
+htmlcov/
+.tox/
+
+# Virtual Environments
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/

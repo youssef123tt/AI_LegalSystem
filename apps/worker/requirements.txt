@@ -1,0 +1,13 @@
+celery==5.4.0
+redis==5.0.8
+sqlalchemy==2.0.35
+psycopg[binary]==3.2.3
+opensearch-py==2.6.0
+pdfplumber==0.11.4
+pypdf==5.1.0
+python-docx==1.1.2
+pymupdf==1.25.5
+requests==2.32.3
+pytesseract==0.3.10
+pdf2image==1.17.0
+Pillow==10.4.0
